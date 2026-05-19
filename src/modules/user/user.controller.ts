@@ -45,12 +45,12 @@ const getSingleUser = async (req: Request, res: Response) => {
   try {
     const result = await userService.getSingleUserFromDB(Number(id))
 
-      if (result.rows.length === 0) {
-        return res.status(404).json({
-          success: false,
-          message: "User not found"
-        })
-      }
+        if (result.rows.length === 0) {
+          return res.status(404).json({
+            success: false,
+            message: "User not found"
+          })
+        }
     res.status(200).json({
       success: true,
       message: "User fetched successfully",

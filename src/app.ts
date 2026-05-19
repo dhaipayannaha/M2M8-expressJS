@@ -2,9 +2,12 @@ import express, { type Application, type Request, type Response } from 'express'
 
 
 
-import { initDB, pool } from './db/index.js';
+
 import { userRouter } from './modules/user/user.route.js';
 import { profileRouter } from './modules/profile/profile.route.js';
+import { authRouter } from './modules/auth/auth.route.js';
+import fs from "fs";
+import logger from './middleweare/logger.js';
 
 const app: Application = express()
 
@@ -13,8 +16,7 @@ const app: Application = express()
 app.use(express.json());
 app.use(express.text());
 app.use(express.urlencoded({ extended: true }));
-
-//this pool /setu thet connect setver to database neodb
+app.use(logger)
 
 
 
@@ -28,7 +30,7 @@ app.get('/', (req: Request, res: Response) => {
 
 app.use('/api/users', userRouter)
 app.use('/api/profile', profileRouter)
-
+app.use('/api/auth', authRouter)
 
 
 

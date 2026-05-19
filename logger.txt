@@ -1,0 +1,44 @@
+Method -> GET URL -> / Time -> 1779168703822
+Method -> GET URL -> / Time -> 1779168918185
+
+Method -> GET - Time -> 1779169164575 - URL -> /
+
+Method -> GET - Time -> 1779169180841 - URL -> /
+
+Method -> GET - Time -> 1779169183867 - URL -> /products
+
+Method -> GET - Time -> 1779169194556 - URL -> /api/user
+
+Method -> GET - Time -> 1779169198424 - URL -> /api/users
+
+Method -> GET - Time -> 1779172556856 - URL -> /api/users/7
+
+Method -> GET - Time -> 1779176027498 - URL -> /api/users/7
+
+Method -> GET - Time -> 1779176040470 - URL -> /api/users
+
+Method -> GET - Time -> 1779176065660 - URL -> /api/users
+
+Method -> GET - Time -> 1779176087072 - URL -> /api/users
+
+Method -> GET - Time -> 1779176703793 - URL -> /api/users
+
+Method -> GET - Time -> 1779176708728 - URL -> /api/users
+
+Method -> GET - Time -> 1779177389791 - URL -> /api/users
+
+Method -> GET - Time -> 1779177391281 - URL -> /api/users
+
+Method -> POST - Time -> 1779177964559 - URL -> /api/auth/login
+
+Method -> GET - Time -> 1779178896703 - URL -> /api/users
+
+Method -> GET - Time -> 1779178928078 - URL -> /api/users
+
+Method -> GET - Time -> 1779178952466 - URL -> /api/users
+
+Method -> GET - Time -> 1779179117577 - URL -> /api/users
+
+Method -> GET - Time -> 1779179135766 - URL -> /api/users
+
+Method -> GET - Time -> 1779179143642 - URL -> /api/users

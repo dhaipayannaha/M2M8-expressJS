@@ -11,7 +11,7 @@ export const initDB = async () => {
       id SERIAL PRIMARY KEY,
       name VARCHAR(50),
       email VARCHAR(50) NOT NULL UNIQUE,
-      password VARCHAR(50) NOT NULL,
+      password text NOT NULL,
       is_active BOOLEAN DEFAULT TRUE,
       age INT,
       created_at TIMESTAMP DEFAULT NOW(),
@@ -31,6 +31,6 @@ export const initDB = async () => {
     )`);
     console.log("Database initialized successfully")
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
 }
