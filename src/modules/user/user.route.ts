@@ -8,13 +8,6 @@ import auth from "../../middleweare/auth.js";
 const router = Router()
 
 
-
-
-
-
-
-
-
 router.post('/', userController.createUser);
 
 router.get('/', auth(), userController.getAllUsers );
