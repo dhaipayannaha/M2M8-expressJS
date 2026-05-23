@@ -7,7 +7,8 @@ const config = {
     database: {
         connectionString: process.env.CONNECTIONSTRING as string,
         port: Number(process.env.PORT),
-        secret: process.env.JWT_SECRET
+        secret: process.env.JWT_SECRET,
+        refresh_secret: process.env.REFRESH_SECRET
     }
 }
 
